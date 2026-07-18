@@ -585,6 +585,48 @@ ul { list-style: none; }
 .blog-card__link:hover { color: var(--color-primary); gap: 12px; }
 .blog-card__link svg { width: 16px; height: 16px; }
 
+/* Card footer: Read More (left) + read time (right) */
+.blog-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+}
+.blog-card__readtime {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-secondary);
+  font-size: 1.3rem;
+  color: var(--color-body);
+  white-space: nowrap;
+}
+.blog-card__readtime svg { width: 15px; height: 15px; }
+
+/* Blog article pages (blog-*.html) */
+.article-page__topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.article-page__section { margin-bottom: 30px; }
+.article-page__section:last-child { margin-bottom: 0; }
+.article-page__section h2 {
+  font-size: 2.2rem;
+  color: var(--color-heading);
+  margin-bottom: 14px;
+}
+.article-page__section p {
+  font-size: 1.6rem;
+  line-height: 1.9;
+  color: var(--color-body);
+  margin-bottom: 16px;
+}
+.article-page__section p:last-child { margin-bottom: 0; }
+
 /* ---------------- 10. Contact / Footer ---------------- */
 .contact__grid {
   display: grid;
