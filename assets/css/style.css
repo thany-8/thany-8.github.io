@@ -155,19 +155,32 @@ ul { list-style: none; }
 .logo {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
+  gap: 10px;
+  padding: 6px 12px 6px 6px;
+  border-radius: 999px;
   background: var(--bg-card);
   box-shadow: var(--shadow-btn);
   font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 1.6rem;
   color: var(--color-heading);
-  letter-spacing: 1px;
+  letter-spacing: 0.4px;
 }
 .logo:hover { color: var(--color-primary); }
+
+.logo__avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 1, 79, 0.22);
+}
+
+.logo__text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1;
+}
 
 .nav__list { display: flex; align-items: center; gap: 8px; }
 

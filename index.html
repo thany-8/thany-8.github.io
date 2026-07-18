@@ -15,7 +15,9 @@
   <meta property="og:image" content="assets/images/avatar.png" />
 
   <meta name="theme-color" content="#ecf0f3" />
-  <link rel="icon" type="image/png" href="assets/images/browser.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/browser.png" />
+  <link rel="shortcut icon" href="assets/images/browser.png" />
+  <link rel="apple-touch-icon" href="assets/images/browser.png" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
@@ -23,7 +25,10 @@
   <!-- ============ Header ============ -->
   <header class="header" id="top">
     <div class="container header__inner">
-      <a href="#top" class="logo" aria-label="Tania St Vil home">TSV</a>
+      <a href="#top" class="logo" aria-label="Tania St Vil home">
+        <img src="assets/images/pic-head.png" alt="Tania St Vil" class="logo__avatar" />
+        <span class="logo__text">Welcome</span>
+      </a>
 
       <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
