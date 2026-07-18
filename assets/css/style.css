@@ -108,6 +108,8 @@ ul { list-style: none; }
 .btn--primary {
   color: #ffffff;
   background: var(--bg-gradient-hover);
+  box-shadow: 0 10px 22px rgba(255, 1, 79, 0.28);
+  transform: translateY(-2px);
 }
 .btn--primary:hover {
   color: #ffffff;
