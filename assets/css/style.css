@@ -86,39 +86,33 @@ ul { list-style: none; }
   font-weight: 500;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: var(--color-heading);
+  color: var(--color-primary);
   padding: 14px 30px;
   border-radius: 6px;
   background: var(--bg-card);
   box-shadow: var(--shadow-btn);
   border: none;
   cursor: pointer;
-  position: relative;
   transition: var(--transition);
 }
 
-.btn::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 6px;
+/* CONTACT ME (default): light card, red text -> fills red on hover */
+.btn:hover {
+  color: #ffffff;
   background: var(--bg-gradient-hover);
-  opacity: 0;
-  transition: var(--transition);
-  z-index: -1;
+  box-shadow: 0 10px 22px rgba(255, 1, 79, 0.28);
+  transform: translateY(-2px);
 }
 
-.btn:hover { 
-  background-color: #ffffff;
-  color: #ff003c;
-  box-shadow: 0 12px 24px rgba(70, 90, 120, 0.25);
-  transform: translateY(-2px); }
-.btn:hover::after { opacity: 1; }
-
-.btn--primary { background-color: #f8f9fb;
-  color: #ff0048; }
-.btn--primary::after { opacity: 0; }
-.btn--primary:hover::after { opacity: 0.9; }
+/* VIEW RESUME (primary): solid red, white text */
+.btn--primary {
+  color: #ffffff;
+  background: var(--bg-gradient-hover);
+}
+.btn--primary:hover {
+  color: #ffffff;
+  filter: brightness(0.95);
+}
 
 .btn--sm { padding: 9px 20px; font-size: 1.2rem; }
 
