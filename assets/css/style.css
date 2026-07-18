@@ -1,6 +1,6 @@
 /* =============================================================
    Tania St Vil — Portfolio
-   Style inspired by the "Inbio" personal portfolio (dark neumorphic).
+   Style inspired by the "Inbio" personal portfolio (light neumorphic).
    Sections: Variables · Reset · Buttons · Header/Nav · Hero ·
    Section Title · Experience/Education · Skills · Projects ·
    Certifications · Contact/Footer · Reveal · Responsive
@@ -12,21 +12,21 @@
 :root {
   --color-primary: #ff014f;
   --color-primary-2: #d11414;
-  --color-subtitle: #ff014f;
+  --color-subtitle: #f9004d;
 
-  --bg-body: #212428;
-  --bg-card: #212428;
-  --bg-gradient: linear-gradient(145deg, #1e2024, #23272b);
+  --bg-body: #ecf0f3;
+  --bg-card: #ecf0f3;
+  --bg-gradient: linear-gradient(145deg, #e2e8ec, #ffffff);
   --bg-gradient-hover: linear-gradient(145deg, #ff014f, #d11414);
 
-  --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-  --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
-  --shadow-btn: -3px -3px 6px #262a2e, 3px 3px 6px #1c1e22;
+  --shadow-1: 10px 10px 19px #d1d9e6, -10px -10px 19px #ffffff;
+  --shadow-2: inset 6px 6px 12px #d1d9e6, inset -6px -6px 12px #ffffff;
+  --shadow-btn: -3px -3px 6px #ffffff, 3px 3px 6px #d1d9e6;
 
-  --color-heading: #ffffff;
-  --color-body: #878e99;
-  --color-light: #c4cfde;
-  --color-border: rgba(255, 255, 255, 0.08);
+  --color-heading: #1e2125;
+  --color-body: #5f6266;
+  --color-light: #3c3e41;
+  --color-border: #dce1e4;
 
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Montserrat", sans-serif;
@@ -138,7 +138,7 @@ ul { list-style: none; }
   left: 0;
   width: 100%;
   z-index: 999;
-  background: rgba(28, 30, 34, 0.85);
+  background: rgba(236, 240, 243, 0.85);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--color-border);
   transition: var(--transition);

@@ -1,6 +1,6 @@
 # Tania St Vil — Portfolio
 
-A personal portfolio website (dark, neumorphic style) built with plain **HTML, CSS, and JavaScript** — no build step, no dependencies. Inspired by the "Inbio" portfolio layout.
+A personal portfolio website (light, neumorphic style) built with plain **HTML, CSS, and JavaScript** — no build step, no dependencies. Inspired by the "Inbio" portfolio layout (white version).
 
 ## Run locally
 
@@ -43,7 +43,7 @@ Edit these two lines at the top of `assets/css/style.css`:
 
 ```css
 --color-primary: #ff014f;
---color-subtitle: #ff014f;
+--color-subtitle: #f9004d;
 ```
 
 ## Deploy for free
