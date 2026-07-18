@@ -108,10 +108,15 @@ ul { list-style: none; }
   z-index: -1;
 }
 
-.btn:hover { color: #fff; box-shadow: none; transform: translateY(-2px); }
+.btn:hover { 
+  background-color: #ffffff;
+  color: #ff003c;
+  box-shadow: 0 12px 24px rgba(70, 90, 120, 0.25);
+  transform: translateY(-2px); }
 .btn:hover::after { opacity: 1; }
 
-.btn--primary { color: #fff; }
+.btn--primary { background-color: #f8f9fb;
+  color: #ff003c; }
 .btn--primary::after { opacity: 1; }
 .btn--primary:hover::after { opacity: 0.9; }
 
